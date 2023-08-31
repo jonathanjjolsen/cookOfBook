@@ -4,6 +4,8 @@
 @import 'tailwindcss/utilities';
 @import 'daisyui/dist/full.css';
 
+
+
 /* Your styles here */
 html, body, div, h1, h2, h3, p, img{
     margin: 0;
@@ -12,9 +14,9 @@ html, body, div, h1, h2, h3, p, img{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
 /* Home */
-
-
 #wholePage {
     min-height: 100vh;
     background-image: url('./assets/Background.jpg');
@@ -37,10 +39,25 @@ html, body, div, h1, h2, h3, p, img{
     border-radius: 5px;
     font-size: xx-large;
     align-items: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #title{
     color:black;
     font-size: 75px;
     margin-bottom: 5%;
+}
+
+
+
+/* Animations */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
