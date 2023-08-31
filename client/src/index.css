@@ -2,3 +2,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Your styles here */
+html, body, div, h1, h2, h3, p, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Home */
+
+
+#wholePage {
+    min-height: 100vh;
+    background-image: url('./assets/Background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleContainer {
+    max-width: 20%;
+    max-height: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: xx-large;
+}
