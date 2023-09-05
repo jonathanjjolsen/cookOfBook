@@ -14,9 +14,13 @@ html, body, div, h1, h2, h3, p, img{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    background-color: #F5F5F5;
+}
 
 
-/* Home */
+
+/* Landing */
 #wholePage {
     min-height: 100vh;
     background-image: url('./assets/Background.jpg');
@@ -49,6 +53,20 @@ html, body, div, h1, h2, h3, p, img{
     font-size: 75px;
     margin-bottom: 5%;
 }
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navtitle {
+    color: black;
+    font-size: 50px;
+}
+
 
 
 
