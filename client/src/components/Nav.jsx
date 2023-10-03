@@ -6,13 +6,13 @@ export default function Nav() {
     return (
         <div id='navbar'className="navbar bg-base-200">
             <div className="flex-1">
-                <Link className="btn btn-ghost btn-lg text-6xl">CookBook</Link>
+                <Link to='/Home'className="btn btn-ghost btn-lg text-6xl">CookBook</Link>
             </div>
             <div>
                 <ul className="menu menu-ghost menu-lg menu-horizontal rounded-box">
-                    <li><Link to="/Home" className="btn btn-ghost">Home</Link></li>
-                    <li><Link to="/About" className="btn btn-ghost">About</Link></li>
-                    <li><Link to="/Contact" className="btn btn-ghost">Contact</Link></li>
+                    <li><Link to="/MyRecipes" className="btn btn-ghost">My Recipes</Link></li>
+                    <li><Link to="/Random" className="btn btn-ghost">Random Recipe</Link></li>
+                    <li><Link to="/External" className="btn btn-ghost">External Links</Link></li>
                 </ul>
             </div>
             <div className="flex-none gap-2">
