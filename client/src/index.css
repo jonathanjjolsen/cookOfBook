@@ -48,6 +48,10 @@ body {
     animation-fill-mode: forwards;
 }
 
+.linkBtn {
+    margin-top: 2%;
+}
+
 #title{
     color:black;
     font-size: 75px;
